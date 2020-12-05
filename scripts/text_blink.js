@@ -108,22 +108,13 @@ function smooth_scroll(to, current)
 }
 
 function init() {
-	//window.setTimeout(displayScreenText, CHAR_DELAY)
 	window.setTimeout(displayScreenText, 500);
 	
-	var linkHome = document.getElementById("link_home");
+	/*var linkHome = document.getElementById("link_home");
 	var linkServices = document.getElementById("link_services");
 	
 	linkHome.href = "javascript:smooth_scroll(window.innerHeight * (105/100));";
-	linkServices.href = "javascript:smooth_scroll(window.innerHeight * (215/100));";
-	
-	
-	
-	
-	/*banner.style.zIndex = initialBannerZIndex;
-	bannerDummy.style.zIndex = initialBannerDummyZIndex;
-	//bannerDummy.style.top = "-" + window.getComputedStyle(banner, null).getPropertyValue("height");		
-	banner.style.color = "rgb(255, 255, 255)";*/
+	linkServices.href = "javascript:smooth_scroll(window.innerHeight * (215/100));";*/
 }
 
 function addBlinker() {

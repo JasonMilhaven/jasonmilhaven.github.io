@@ -25,7 +25,7 @@
 	</head>
 	<!--<body oncontextmenu="return false">-->
 	<body onload="init()">
-		<div id="home"></div>
+		<div id="about" style="position: relative; top: 12vh;"></div>
 	
 		<div id="banner_dummy" class="banner_template">
 		</div>
@@ -34,12 +34,12 @@
 			<nav>
 				<ul>
 					<li>
-						<a id="link_home" href="#home">
+						<a id="link_home" href="#about">
 							about me
 						</a>
 					</li>
 					<li>
-						<a id="link_services" href="#services">
+						<a id="link_services" href="#projects">
 							projects
 						</a>
 					</li>
@@ -89,11 +89,10 @@
 				A Computer Science student with an interest in<br><span style="font-style: italic;">software development / cybersecurity / game design</span>
 			</p>
 			<a id="contact_button" href="mailto:jasonmilhaven@gmail.com">EMAIL ME</a>
-			
-			<div id="services"></div>
 		</div>
 		
 		<div id="container3" class="container">
+			<div id="projects" style="position: relative; top: -24vh;"></div>
 		
 			<div class="project">
 				<img src="project_images/Picture2.png">
@@ -142,9 +141,9 @@
 
 		</div>
 		
-		<script src="script.js" type="text/javascript">
-		</script>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="scripts/smooth_scroll.js" type="text/javascript"></script>
+		<script src="scripts/text_blink.js" type="text/javascript"></script>
 		
 	</body>
 </html>
