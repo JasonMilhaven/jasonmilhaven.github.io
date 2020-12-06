@@ -189,11 +189,8 @@ a:link, a:active, a:visited, a:hover
 	position: relative;
 	
 	display: inline-block;
-	/*margin-left: 2vmax;*/
 	margin-left: 2em;
 	
-	/*padding-top: 3.25vmin;*/
-	/*padding-top: 1.5em;*/
 	padding-top: calc(5vmin - 1.25rem);
 }
 
@@ -321,8 +318,8 @@ a:link, a:active, a:visited, a:hover
 	
 	background-color: var(--WHITE);
 	
-	padding-top: 24vh;
-	padding-bottom: 24vh;
+	padding-top: 12vh;
+	padding-bottom: 12vh;
 }
 
 /* END CONTAINERS */
@@ -526,7 +523,10 @@ a:link, a:active, a:visited, a:hover
 .project
 {
 	margin: 0 auto;
-	margin-bottom: 16vw;
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+	
+	min-height: 16vw;
 	
 	background-color: transparent;
 	
@@ -543,7 +543,7 @@ a:link, a:active, a:visited, a:hover
 {
 	position: absolute;
 	/*left: 16vw;*/
-	right: 57vw;
+	right: 58vw;
 	
 	object-fit: cover;
 	width: 16vw;
@@ -561,19 +561,16 @@ a:link, a:active, a:visited, a:hover
 
 .project p
 {
-	display: inline-block;
-	width: 40%;
+	display: block;
+	width: auto;
 	
 	margin: 0 auto;
-	margin-left: 30%;
+	margin-left: 44%;
+	margin-right: 20%;
+	
 	text-align: left;
 	
 	word-wrap: break-word;
-}
-
-.project #title
-{
-	/*color: var(--BLACK);*/
 }
 
 .project #short
@@ -585,6 +582,24 @@ a:link, a:active, a:visited, a:hover
 .project #desc
 {
 	margin-top: 24px;
+}
+
+.project a
+{
+	display: block;
+	width: auto;
+	float: left;
+	clear: left;
+	
+	margin: 0 auto;
+	margin-left: 44%;
+	
+	white-space: nowrap;
+	
+	margin-right: 100%;
+	text-align: left;
+	
+	word-wrap: break-word;
 }
 
 .project a:link, a:active, a:visited, a:hover
