@@ -28,7 +28,7 @@ body
 	padding: 0;
 	
 	font-family: Arial-Rounded-Mt-Bold, Arial;
-	font-size: 1.25rem; /*2vmin;*/
+	font-size: 1.25rem;
 	font-weight: 700;
 	text-decoration: none;
 	color: var(--BLACK);
@@ -329,7 +329,7 @@ a:link, a:active, a:visited, a:hover
 
 #heading1
 {
-	font-family: "Lucida Console";
+	font-family: "Lucida Console", Courier New;
 }
 
 #short1
@@ -340,7 +340,7 @@ a:link, a:active, a:visited, a:hover
 	overflow: hidden;
 	text-overflow: clip;
 	
-	font-family: "Lucida Console";
+	font-family: "Lucida Console", Courier New;
 	color: var(--WHITE);
 	font-size: 4vmin;
 	
@@ -359,7 +359,7 @@ a:link, a:active, a:visited, a:hover
 	overflow: hidden;
 	text-overflow: clip;
 	
-	font-family: "Lucida Console";
+	font-family: "Lucida Console", Courier New;
 	color: var(--LIGHT_GREY);
 	font-size: 1.5vmin;
 	
