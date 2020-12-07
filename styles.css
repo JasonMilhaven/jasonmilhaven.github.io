@@ -523,8 +523,13 @@ a:link, a:active, a:visited, a:hover
 .project
 {
 	margin: 0 auto;
-	margin-top: 8vw;
-	margin-bottom: 8vw;
+	
+	/*margin-top: 8vw;
+	margin-bottom: 8vw;*/
+	margin-top: 6vw;
+	margin-bottom: 6vw;
+	
+	
 	
 	min-height: 16vw;
 	
@@ -542,14 +547,16 @@ a:link, a:active, a:visited, a:hover
 .project img
 {
 	position: absolute;
-	/*left: 16vw;*/
 	right: 58vw;
 	
 	object-fit: cover;
-	width: 16vw;
-	height: 16vw;
 	
-	/*left: 28vw;*/
+	
+	/*width: 16vw;
+	height: 16vw;*/
+	width: 14vw;
+	height: 14vw;
+	
 	
 	display: inline-block;
 	
