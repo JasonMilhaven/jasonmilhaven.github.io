@@ -147,7 +147,8 @@ a:link, a:active, a:visited, a:hover
 
 #banner_dummy
 {
-	background-color: rgb(24, 24, 24); /*var(--BLACK);*/
+	background-color: rgb(24, 24, 24);
+	
 	/*visibility: hidden;*/
 	z-index: -4;
 	
@@ -277,7 +278,7 @@ a:link, a:active, a:visited, a:hover
 	margin: 0 auto;
 	padding: 0;
 	
-	background-image: url('background_white.png');
+	background-image: url('images/background.png');
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -458,7 +459,7 @@ a:link, a:active, a:visited, a:hover
 
 #scroll_arrow
 {
-	background: url('scroll_arrow2.png') no-repeat;
+	background: url('images/scroll_icon.png') no-repeat;
 	background-size: contain;
 	
 	position: absolute;
