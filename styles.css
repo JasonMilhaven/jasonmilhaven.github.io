@@ -26,13 +26,14 @@ body
 	color: var(--BLACK);
 	text-align: center;
 	
-	cursor: default;
 	overflow-x: hidden;
 	border-collapse: collapse;
+
+	/*cursor: default;
 	
 	user-select: none;
 	-moz-user-select: none;
-	-ms-user-select: none;
+	-ms-user-select: none;*/
 }
 
 img
@@ -131,7 +132,6 @@ a:link, a:active, a:visited, a:hover
 	z-index: -2;
 	
 	font-weight: 400;
-	text-transform: uppercase;
 	
 	/*border-bottom: 0.25vmin solid var(--BLACK);*/
 	/*border-bottom-left-radius: 5vmin;
@@ -377,7 +377,7 @@ a:link, a:active, a:visited, a:hover
 	margin-top: 5vh;
 	
 	font-weight: 400;
-	font-size: 4rem;
+	font-size: 4em;
 	color: var(--BLACK);
 }
 
@@ -388,7 +388,7 @@ a:link, a:active, a:visited, a:hover
 	
 	text-align: center;
 	font-weight: 300;
-	font-size: 2rem;
+	font-size: 2em;
 	color: var(--GREY);
 	/*color: var(--BLACK);*/
 	
@@ -400,7 +400,7 @@ a:link, a:active, a:visited, a:hover
 	margin-bottom: 0px;
 	
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 2em;
 	color: var(--BLACK);
 }
 
@@ -410,6 +410,15 @@ a:link, a:active, a:visited, a:hover
 	font-weight: 700;
 	padding: 0;*/
 	color: var(--BLUE);
+}
+
+#short3
+{
+	position: relative;
+	font-size: 1em;
+	margin-top: 2em;	
+	margin-bottom: 2em;
+	/*font-style: italic;*/
 }
 
 #container2 ul
@@ -428,7 +437,7 @@ a:link, a:active, a:visited, a:hover
 {
 	text-align: left;
 	font-weight: 300;
-	font-size: 1rem; /*3vmin;*/
+	font-size: 1em; /*3vmin;*/
 	color: var(--GREY);
 }
 
@@ -484,7 +493,7 @@ a:link, a:active, a:visited, a:hover
 	margin: 1em;
 	text-align: center;
 	font-weight: 300;
-	font-size: 1.5rem; /*3vmin;*/
+	font-size: 1.5em; /*3vmin;*/
 	color: var(--BLUE);
 	
 	-webkit-transition: color 1s, background-color 0.6s;
@@ -536,7 +545,7 @@ a:link, a:active, a:visited, a:hover
 	background-color: transparent;
 	
 	font-family: "Crimson Text";
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	color: var(--GREY);
 	font-weight: 300;
 	
