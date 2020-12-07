@@ -193,12 +193,11 @@ a:link, a:active, a:visited, a:hover
 {
 	position: relative;
 	
-	margin-top: 3vmin;
-	
 	display: inline-block;
 	margin-left: 2em;
 	
-	/*height: 100%;*/
+	height: 8vmin;
+	margin-top: 3vmin;
 }
 
 #banner a
@@ -476,7 +475,7 @@ a:link, a:active, a:visited, a:hover
 	
 	font-family: 'Montserrat', Arial-Rounded-Mt-Bold, Arial;
 	
-	border: 0.25vmin solid var(--BLUE);
+	border: 2px solid var(--BLUE);
 	border-radius: 0.25em;
 		
 	width: 10vmin;
