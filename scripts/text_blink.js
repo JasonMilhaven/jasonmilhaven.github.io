@@ -8,26 +8,6 @@ var initialBannerDummyZIndex = bannerDummy.style.zIndex;
 
 
 
-
-function clamp01(num)
-{
-	ret = num;
-
-	min = -1;
-	max = 1;
-
-	if (num < min)
-	{
-		ret = min;
-	}
-	else if (num > max)
-	{
-		ret = max;
-	}
-
-	return ret;
-}
-
 window.addEventListener("scroll", function(e)
 	{
 		var viewPosY = window.pageYOffset;
@@ -75,7 +55,7 @@ function displayScreenText() {
 		// when the text is complete, this 'else' clause executes
 		window.setTimeout(
 			function() { document.getElementById("short1_lower").style.visibility = "visible"; },
-		800);
+		1000);
 		
 		addBlinker();
 	}
