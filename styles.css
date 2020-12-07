@@ -81,10 +81,9 @@ a:link, a:active, a:visited, a:hover
 
 /* SCROLLBAR */
 
-::-webkit-scrollbar
+/*::-webkit-scrollbar
 {
-	/*width: 1.25vw;*/
-	width: 1vw;
+	width: 20px;
 }
 
 ::-webkit-scrollbar-button
@@ -95,19 +94,19 @@ a:link, a:active, a:visited, a:hover
 
 ::-webkit-scrollbar-thumb
 {
-	background: var(--GREY);
+	background: var(--LIGHT_GREY);
 	border: 0px none var(--WHITE);
 	border-radius: 17px;
 }
 
 ::-webkit-scrollbar-hover
 {
-	background: var(--GREY);
+	background: var(--LIGHT_GREY);
 }
 
 ::-webkit-scrollbar-thumb:active
 {
-	background: var(--DARK_GREY);
+	background: var(--GREY);
 }
 
 ::-webkit-scrollbar-track
@@ -117,8 +116,7 @@ a:link, a:active, a:visited, a:hover
 
 ::-webkit-scrollbar-track:active
 {
-	/*background: var(--LIGHT_GREY);*/
-}
+}*/
 
 /* END SCROLLBAR */
 
