@@ -175,6 +175,7 @@ a:link, a:active, a:visited, a:hover
 {
 	float: right;
 	margin-right: 6vmin;
+	height: 100%;
 }
 
 #banner ul
@@ -182,6 +183,7 @@ a:link, a:active, a:visited, a:hover
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	height: 100%;
 }
 
 #banner li
@@ -191,7 +193,11 @@ a:link, a:active, a:visited, a:hover
 	display: inline-block;
 	margin-left: 2em;
 	
-	padding-top: calc(5vmin - 1.25rem);
+	/*padding-top: calc(5vmin - 1.25rem);*/
+	/*padding-top: 3vh;*/
+	
+	margin-top: 3vh;
+	height: auto;
 }
 
 #banner a
@@ -217,8 +223,8 @@ a:link, a:active, a:visited, a:hover
 	width: 100%;
 	/*background-color: var(--LIGHT_BLUE);*/
 	background-color: var(--BLUE);
-	/*top: 7.25vmin;*/
-	top: 0.5vmin;
+	
+	top: -2.5vmin;
 	
 	transition: height 0.2s ease-in-out;
 }
@@ -502,16 +508,16 @@ a:link, a:active, a:visited, a:hover
 
 #self_portrait
 {
-	/*width: 256px;
-	height: 256px;
-	margin-top: 16vh;
-	border: 4px solid grey;
-	border-radius: 100%;*/
+	/*previous value was 20rem*/
 	
-	width: 20rem;
+	width: 36vh;
 	height: auto;
-	/*border: 0.125rem solid grey;*/
-	border: 0.1rem solid var(--BLACK);
+	
+	min-width: 256px;
+	min-height: 256px;
+	
+	border: 1px solid var(--BLACK);
+	
 	border-radius: 100%;
 }
 
