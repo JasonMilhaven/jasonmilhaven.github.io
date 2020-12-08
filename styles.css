@@ -559,6 +559,8 @@ a:link, a:active, a:visited, a:hover
 	
 	width: 100%;
 	height: auto;
+	
+	word-wrap: break-word;
 }
 
 .project img
@@ -594,7 +596,7 @@ a:link, a:active, a:visited, a:hover
 	
 	text-align: left;
 	
-	word-wrap: break-word;
+	clear: left;
 }
 
 .project #short
@@ -612,18 +614,16 @@ a:link, a:active, a:visited, a:hover
 {
 	display: block;
 	width: auto;
+	
 	float: left;
 	clear: left;
 	
 	margin: 0 auto;
 	margin-left: 44%;
+	margin-right: 20%;
 	
-	white-space: nowrap;
-	
-	margin-right: 100%;
 	text-align: left;
 	
-	word-wrap: break-word;
 }
 
 .project a:link, a:active, a:visited, a:hover
