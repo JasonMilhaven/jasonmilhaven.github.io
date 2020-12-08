@@ -425,8 +425,16 @@ a:link, a:active, a:visited, a:hover
 	margin-bottom: 1.5em;*/
 
 	font-size: 1em;
-	margin-top: 2em;	
-	margin-bottom: 2em;
+	margin-top: 3em;	
+	margin-bottom: 3em;
+}
+
+#short3_email
+{
+	/*text-decoration: underline;*/
+	
+	/*font-weight: 700;*/
+	background-color: #80d7ff;
 }
 
 #container2 ul
