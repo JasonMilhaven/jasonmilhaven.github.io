@@ -186,8 +186,7 @@ a:link, a:active, a:visited, a:hover
 	
 	display: inline-block;
 	margin-left: 2em;
-	
-	height: 8vmin;
+
 	margin-top: 3vmin;
 }
 
@@ -196,6 +195,7 @@ a:link, a:active, a:visited, a:hover
 	font-family: 'Montserrat', sans-serif;
 	color: var(--LIGHT_GREY);
 	font-size: 2vmin;
+	/*font-size: 1.2em;*/
 	
 	display: inline-block;
 }
