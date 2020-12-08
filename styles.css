@@ -416,10 +416,17 @@ a:link, a:active, a:visited, a:hover
 #short3
 {
 	position: relative;
+	/*font-style: italic;*/
+
+	color: var(--GREY);
+
+	/*font-size: 1.5em;
+	margin-top: 1.5em;	
+	margin-bottom: 1.5em;*/
+
 	font-size: 1em;
 	margin-top: 2em;	
 	margin-bottom: 2em;
-	/*font-style: italic;*/
 }
 
 #container2 ul
