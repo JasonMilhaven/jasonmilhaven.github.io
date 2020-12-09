@@ -1,0 +1,37 @@
+
+/*::-webkit-scrollbar
+{
+	width: 20px;
+}
+
+::-webkit-scrollbar-button
+{
+	width: 0;
+	height: 0;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: var(--LIGHT_GREY);
+	border: 0px none var(--WHITE);
+	border-radius: 17px;
+}
+
+::-webkit-scrollbar-hover
+{
+	background: var(--LIGHT_GREY);
+}
+
+::-webkit-scrollbar-thumb:active
+{
+	background: var(--GREY);
+}
+
+::-webkit-scrollbar-track
+{
+	background: var(--BLACK);
+}
+
+::-webkit-scrollbar-track:active
+{
+}*/
