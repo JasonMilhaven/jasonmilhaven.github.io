@@ -509,13 +509,10 @@ a:link, a:active, a:visited, a:hover
 .project p
 {
 	display: block;
-	width: auto;
 	
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	
 	text-align: left;
-	
-	clear: left;
 }
 
 .project #short
@@ -527,20 +524,6 @@ a:link, a:active, a:visited, a:hover
 .project #desc
 {
 	margin-top: 1.5em;
-}
-
-.project a
-{
-	display: block;
-	width: auto;
-	
-	float: left;
-	clear: left;
-	
-	/*margin: 0 auto;*/
-	
-	text-align: left;
-	
 }
 
 .project a:link, a:active, a:visited, a:hover
