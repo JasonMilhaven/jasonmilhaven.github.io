@@ -550,7 +550,8 @@ a:link, a:active, a:visited, a:hover
 }
 
 /* Medium devices (landscape tablets, 768px or lower) */
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {*/
+@media only screen and (orientation: portrait) {
 
 .project
 {
