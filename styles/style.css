@@ -540,6 +540,10 @@ a:link, a:active, a:visited, a:hover
 {
 	margin-left: 10%;
 	margin-right: 10%;
+	
+	margin-top: 6em;
+	margin-bottom: 6em;
+	
 	width: 80%;
 }
 
