@@ -520,7 +520,14 @@ a:link, a:active, a:visited, a:hover
 	
 	min-width: 144px;
 	min-height: 144px;
+	
+	/*transition: all 0.2s ease-in-out 0s;*/
 }
+
+/*.project img:hover
+{
+	transform: scale(1.1);
+}*/
 
 .project p
 {
@@ -546,6 +553,11 @@ a:link, a:active, a:visited, a:hover
 {
 	color: var(--BLUE);
 	text-decoration: none;
+}
+
+.project #fake_link
+{
+	color: var(--BLUE);
 }
 
 /* Medium devices (landscape tablets, 768px or lower) */
