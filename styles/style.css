@@ -37,6 +37,7 @@ img
 	margin: 0%;
 	
 	left: 0%;
+	bottom: 0%;
 	
 	background-color: var(--BLACK);
 }
@@ -62,6 +63,7 @@ a:link, a:active, a:visited, a:hover
 	width: 100%;
 	/*height: 8vh;*/
 	height: 8vmin;
+	min-height: 64px;
 	
 	top: 0%;
 	left: 0%;
@@ -81,7 +83,7 @@ a:link, a:active, a:visited, a:hover
 
 #banner_line
 {
-	top: 8vmin;
+	/*top: 8vmin;*/
 }
 
 #banner_dummy
@@ -110,13 +112,19 @@ a:link, a:active, a:visited, a:hover
 	
 	float: right;
 	margin-right: 6vmin;
+	
 	height: 100%;
 }
 
 #banner ul
 {
-	margin: 0;
 	padding: 0;
+	
+	margin-bottom: auto;
+	/*margin-top: 3vmin;*/
+	margin-top: 1.7em;
+	
+	float: left;
 }
 
 #banner li
@@ -124,19 +132,17 @@ a:link, a:active, a:visited, a:hover
 	position: relative;
 	
 	display: inline-block;
+	
 	margin-left: 2em;
-
-	margin-top: 3vmin;
 }
 
 #banner a
-{
+{	
 	font-family: 'Montserrat', sans-serif;
 	color: var(--LIGHT_GREY);
-	font-size: 2vmin;
-	/*font-size: 1.2em;*/
 	
-	display: inline-block;
+	/*font-size: 2vmin;*/
+	font-size: 1.2em;
 }
 
 #banner a:hover
@@ -150,7 +156,7 @@ a:link, a:active, a:visited, a:hover
 	
 	content: "";
 	display: block;
-	height: 0vmin;
+	height: 0px;
 	width: 100%;
 	background-color: var(--BLUE);
 	
@@ -162,16 +168,10 @@ a:link, a:active, a:visited, a:hover
 #banner a:hover::before
 {
 	height: 2px;
-}
-
-#banner a:hover::before
-{
 	transform: scale(1);
 }
 
 /* END BANNER */
-
-/* CONTAINERS */
 
 .container
 {
@@ -219,6 +219,33 @@ a:link, a:active, a:visited, a:hover
 	
 	max-width: 160vmin;
 	max-height: 160vmin;
+	
+	min-width: 256px;
+	min-height: 256px;
+}
+
+#short1
+{
+	top: 41%; /* fallback */
+	top: calc(39% + 24px);
+	
+	color: var(--WHITE);
+	font-size: 4vmin;
+	
+	width: auto;
+}
+
+#short1_lower
+{
+	top: 41%; /* fallback */
+	top: calc(40% + 20px);
+	
+	color: var(--LIGHT_GREY);
+	font-size: 1.5vmin;
+	
+	/*display: inline;*/
+	
+	visibility: hidden;
 }
 
 #container2
@@ -249,8 +276,6 @@ a:link, a:active, a:visited, a:hover
 	padding-bottom: 12vh;
 }
 
-/* END CONTAINERS */
-
 #container1 p
 {
 	/*display: inline-block;*/
@@ -262,26 +287,6 @@ a:link, a:active, a:visited, a:hover
 	text-align: center;
 	
 	font-weight: 700;
-}
-
-#short1
-{
-	top: 40%;
-	color: var(--WHITE);
-	font-size: 4vmin;
-	
-	width: auto;
-}
-
-#short1_lower
-{
-	top: 41%;
-	color: var(--LIGHT_GREY);
-	font-size: 1.5vmin;
-	
-	/*display: inline;*/
-	
-	visibility: hidden;
 }
 
 #heading2
