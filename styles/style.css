@@ -121,8 +121,10 @@ a:link, a:active, a:visited, a:hover
 	padding: 0;
 	
 	margin-bottom: auto;
+	
 	/*margin-top: 3vmin;*/
-	margin-top: 1.7em;
+	/*margin-top: 1.7em;*/
+	margin-top: 28px;
 	
 	float: left;
 }
@@ -143,6 +145,15 @@ a:link, a:active, a:visited, a:hover
 	
 	/*font-size: 2vmin;*/
 	font-size: 1.2em;
+}
+
+@media only screen and (orientation: portrait) {
+
+#banner a
+{
+	font-size: 1em;
+}
+	
 }
 
 #banner a:hover
