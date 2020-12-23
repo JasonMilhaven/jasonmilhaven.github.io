@@ -362,10 +362,11 @@ a:link, a:active, a:visited, a:hover
 
 #short3_email
 {
-	/*text-decoration: underline;*/
+	text-decoration: underline;
+	font-weight: 700;
 	
-	/*font-weight: 700;*/
-	background-color: #80d7ff;
+	/* changing the background color makes it look as if the text is highlighted */
+	/*background-color: #80d7ff;*/
 }
 
 #container2 ul
