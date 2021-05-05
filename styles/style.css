@@ -120,31 +120,38 @@ a:link, a:active, a:visited, a:hover
 {
 	padding: 0;
 	
-	margin-bottom: auto;
+	/*margin-bottom: auto;
+	margin-top: auto;*/
 	
-	margin-top: 1.75rem;
-	/*margin-top: calc(1.75rem - 0.5vh);*/
-	/*margin-top: 4vh;*/
+	margin-top: 0;
+	margin-bottom: 0;
 	
+	
+	/*margin-top: 1.75rem;*/
+	
+	height: 100%;
 	
 	float: left;
+	
+	/* code from stack overflow */
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
 }
 
 #banner li
 {
 	position: relative;
 	
-	display: inline-block;
-	
+	display: inline-block;	
 	margin-left: 2em;
 }
 
 #banner a
-{	
+{
 	font-family: 'Montserrat', sans-serif;
 	color: var(--LIGHT_GREY);
 	
-	/*font-size: 2vmin;*/
 	font-size: 1.2em;
 }
 
@@ -172,7 +179,8 @@ a:link, a:active, a:visited, a:hover
 	width: 100%;
 	background-color: var(--BLUE);
 	
-	top: -2.5vmin;
+	margin: auto;
+	top: -1em;
 	
 	transition: height 0.2s ease-in-out;
 }
