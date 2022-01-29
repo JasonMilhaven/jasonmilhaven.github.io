@@ -1,4 +1,10 @@
 
+html
+{
+	/* this changes the size of REM units */
+	font-size: 14px;
+}
+
 /* do NOT DO position: relative in body */
 body
 {
@@ -174,7 +180,8 @@ a:link, a:active, a:visited, a:hover
 	background-color: var(--BLUE);
 	
 	margin: auto;
-	top: -1em;
+	top: 0px;
+	margin-top: -20px;
 	
 	transition: height 0.2s ease-in-out;
 }
@@ -469,7 +476,7 @@ a:link, a:active, a:visited, a:hover
 	
 	font-family: 'Montserrat', Arial-Rounded-Mt-Bold, Arial;
 	
-	border: 2px solid var(--BLUE);
+	border: 1px solid var(--BLUE);
 	/*border-radius: 0.25em;*/
 		
 	width: 10vmin;
@@ -540,12 +547,11 @@ a:link, a:active, a:visited, a:hover
 
 #self_portrait
 {
-	/*width: 36vh;*/
-	width: 24vh;
+	width: 20vh;
 	height: auto;
 	
-	min-width: 256px;
-	min-height: 256px;
+	min-width: 216px;
+	min-height: 216px;
 	
 	border: 1px solid var(--BLACK);
 	
@@ -589,8 +595,8 @@ a:link, a:active, a:visited, a:hover
 	
 	/*width: 16vw;
 	height: 16vw;*/
-	width: 14vw;
-	height: 14vw;
+	width: 12vw;
+	height: 12vw;
 	
 	
 	display: inline-block;
@@ -683,6 +689,8 @@ a:link, a:active, a:visited, a:hover
 	text-align: center;
 	width: auto;
 	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #my_experiences_heading:before
