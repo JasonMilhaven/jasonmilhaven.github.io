@@ -675,3 +675,36 @@ a:link, a:active, a:visited, a:hover
 }
 	
 }
+
+#about_me_text
+{
+	position: relative;
+	font-size: 2em;
+	text-align: center;
+	width: auto;
+	display: inline-block;
+}
+
+#my_experiences_heading:before
+{
+	content: "";
+	display: block;
+	width: 40%;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	right: 110%;
+	background: black;
+}
+
+#my_experiences_heading:after
+{
+	content: "";
+	display: block;
+	width: 40%;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 110%;
+	background: black;
+}
