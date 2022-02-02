@@ -45,7 +45,7 @@ img
 	left: 0%;
 	bottom: 0%;
 	
-	background-color: var(--BLACK);
+	background-color: var(--LIGHT_GREY);
 }
 
 a:link, a:active, a:visited, a:hover
@@ -627,6 +627,12 @@ a:link, a:active, a:visited, a:hover
 {
 	color: var(--BLACK);
 	font-style: italic;
+}
+
+.project #short_2
+{
+	font-weight: 700;
+	font-size: 0.8em;
 }
 
 .project #desc
