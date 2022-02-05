@@ -152,7 +152,7 @@ a:link, a:active, a:visited, a:hover
 	font-family: 'Montserrat', sans-serif;
 	color: var(--LIGHT_GREY);
 	
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 @media only screen and (orientation: portrait) {
