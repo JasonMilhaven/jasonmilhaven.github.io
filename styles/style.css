@@ -45,7 +45,8 @@ img
 	left: 0%;
 	bottom: 0%;
 	
-	background-color: var(--LIGHT_GREY);
+	/*background-color: var(--LIGHT_GREY);*/
+	background-color: rgb(224, 224, 224);
 }
 
 a:link, a:active, a:visited, a:hover
@@ -553,7 +554,7 @@ a:link, a:active, a:visited, a:hover
 	min-width: 216px;
 	min-height: 216px;
 	
-	border: 1px solid var(--BLACK);
+	border: 1px solid var(--GREY);
 	
 	border-radius: 100%;
 }
