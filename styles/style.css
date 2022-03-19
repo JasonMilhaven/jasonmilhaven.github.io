@@ -283,7 +283,7 @@ a:link, a:active, a:visited, a:hover
 	background-color: rgb(242, 242, 242);
 	
 	padding-top: 32vh;
-	padding-bottom: 24vh;
+	padding-bottom: 16vh;
 }
 
 #container3
@@ -571,7 +571,7 @@ a:link, a:active, a:visited, a:hover
 	padding-top: 2em;
 	padding-bottom: 2em;
 	
-	margin-left: 44%;
+	margin-left: 43%;
 	
 	background-color: transparent;
 	
@@ -590,7 +590,7 @@ a:link, a:active, a:visited, a:hover
 .project img
 {
 	position: absolute;
-	right: 58vw;
+	right: 59vw;
 	
 	object-fit: cover;
 	
@@ -651,42 +651,65 @@ a:link, a:active, a:visited, a:hover
 	color: var(--BLUE);
 }
 
+
 /* Medium devices (landscape tablets, 768px or lower) */
 /*@media only screen and (max-width: 768px) {*/
+
 @media only screen and (orientation: portrait) {
+
+.project #title, .project #fake_link
+{
+	margin-left: 144px;
+}
+
+.project #short
+{
+	margin-left: 144px;
+}
+
+.project #short_2
+{
+	margin-left: 144px;
+}
+
+.project #desc
+{
+	margin-top: 2.5em;
+}
 
 .project
 {
 	margin-left: 10%;
 	margin-right: 10%;
 	
-	margin-top: 8em;
-	margin-bottom: 8em;
-	
 	width: 80%;
 }
 
 .project img
 {
-	position: relative;
+	/*position: absolute;*/
 	
 	left: 0;
 	right: 0;
 	
 	margin: 0 auto;
+	margin-left: 48px;
 	margin-bottom: 1em;
 	
 	display: block;
 	text-align: center;
 	
-	width: 60vw;
-	height: 60vw;
+	/*width: 60vw;
+	height: 60vw;*/
 	
 	min-width: 96px;
 	min-height: 96px;
 }
 	
 }
+
+
+
 
 #my_experiences_heading
 {
